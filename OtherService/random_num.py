@@ -3,7 +3,7 @@ import random
 from fastapi import Depends, HTTPException, APIRouter
 from starlette.websockets import WebSocket, WebSocketDisconnect
 
-from auth import get_current_user
+from AuthService.auth import get_current_user
 from database.models import NumberRequest
 from web_socket import manager
 

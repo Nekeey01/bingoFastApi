@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware import Middleware
 
-from auth import auth_router
+from AuthService.auth import auth_router
 from profile import profile_router
 from random_num import randomNum_router
 
